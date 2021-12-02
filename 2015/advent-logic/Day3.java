@@ -9,7 +9,7 @@ import java.util.*;
 
 public class Day3 {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner in = new Scanner(new File("/Users/caseyguarasci/Documents/GitHub/advent-of-code/2015/input-files/Day3_Input.txt"));
+        Scanner in = new Scanner(new File("input-files/Day3_Input.txt"));
         int x=200, y=200, xS=200, yS=200, xRS=200, yRS=200, ptOneAnswer=0, ptTwoAnswer=0, size=1000, coordsOne[][]= new int[size][size], coordsTwo[][]= new int[size][size];
         char input[]=in.nextLine().toCharArray();
         coordsOne[x][y]=1;
